@@ -1,0 +1,26 @@
+<?php
+/**
+ * This file belongs to SkipDirCheck.class.php
+ * 
+ * @link    www.blogdaren.com
+ * @author  manon<lgh_2002@163.com>
+ * @version 
+ * @modify  2017-03-19 20:21:18
+ */
+
+require_once dirname(__FILE__) . DIRECTORY_SEPARATOR . 'BasePreCommitCheck.class.php';
+
+class SkipDirCheck extends BasePreCommitCheck 
+{
+    public function getTitle()
+    {
+        return "PHP SKIP DIRECTORY CHECK!!";
+    }
+
+    public function renderErrorSummary()
+    {
+    }
+
+}
+
+
