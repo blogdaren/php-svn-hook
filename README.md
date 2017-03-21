@@ -8,7 +8,9 @@
 
 3. 使用很简单:
 
-    (1) 找到配置文件 /path/to/config/skip.file.php 进行要忽略的目录或文件即可
-    (2) 配置SVN PRE-COMMIT的钩子脚本: /path/to/svn_house/project/hooks/pre_commit, 增加如下一条指令：
-        /path/to/php /path/to/php-svn-hook/svn_pre_commit_hook.php $1 $2 --include=EmptyComment:Syntax  >> /tmp/php_svn_hook.log
+(1) 找到配置文件 /path/to/config/skip.file.php 进行要忽略的目录或文件即可
+
+(2) 配置SVN PRE-COMMIT的钩子脚本: /path/to/svn_house/project/hooks/pre_commit, 增加如下一条指令：
+
+    /path/to/php /path/to/php-svn-hook/svn_pre_commit_hook.php $1 $2 --include=EmptyComment:Syntax  >> /tmp/php_svn_hook.log
 
