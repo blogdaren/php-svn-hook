@@ -12,3 +12,4 @@
 
     /path/to/php /path/to/php-svn-hook/svn_pre_commit_hook.php $1 $2 --include=EmptyComment:Syntax  >> /tmp/php_svn_hook.log
 
+
